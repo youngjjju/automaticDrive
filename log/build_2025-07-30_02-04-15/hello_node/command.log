@@ -1,0 +1,6 @@
+Invoking command in '/home/youngju/automaticDrive/build/hello_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/youngju/automaticDrive/src/hello_node -DCMAKE_INSTALL_PREFIX=/home/youngju/automaticDrive/install/hello_node
+Invoked command in '/home/youngju/automaticDrive/build/hello_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/youngju/automaticDrive/src/hello_node -DCMAKE_INSTALL_PREFIX=/home/youngju/automaticDrive/install/hello_node
+Invoking command in '/home/youngju/automaticDrive/build/hello_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/hello_node -- -j12 -l12
+Invoked command in '/home/youngju/automaticDrive/build/hello_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/hello_node -- -j12 -l12
+Invoking command in '/home/youngju/automaticDrive/build/hello_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/youngju/automaticDrive/build/hello_node
+Invoked command in '/home/youngju/automaticDrive/build/hello_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/youngju/automaticDrive/build/hello_node

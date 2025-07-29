@@ -1,0 +1,63 @@
+[0.011s] Invoking command in '/home/youngju/automaticDrive/build/hello_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/youngju/automaticDrive/src/hello_node -DCMAKE_INSTALL_PREFIX=/home/youngju/automaticDrive/install/hello_node
+[0.162s] -- The C compiler identification is GNU 11.4.0
+[0.408s] -- The CXX compiler identification is GNU 11.4.0
+[0.551s] -- Detecting C compiler ABI info
+[0.641s] -- Detecting C compiler ABI info - done
+[0.646s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.647s] -- Detecting C compile features
+[0.648s] -- Detecting C compile features - done
+[0.651s] -- Detecting CXX compiler ABI info
+[0.744s] -- Detecting CXX compiler ABI info - done
+[0.749s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.749s] -- Detecting CXX compile features
+[0.750s] -- Detecting CXX compile features - done
+[0.757s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.869s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.945s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.065s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.070s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.081s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.096s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.163s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.165s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.577s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.081s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.101s] -- Looking for pthread.h
+[4.242s] -- Looking for pthread.h - found
+[4.242s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.344s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.345s] -- Found Threads: TRUE  
+[4.429s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.551s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.551s] -- Configured cppcheck include dirs: 
+[4.551s] -- Configured cppcheck exclude dirs and/or files: 
+[4.552s] -- Added test 'lint_cmake' to check CMake code style
+[4.553s] -- Added test 'uncrustify' to check C / C++ code style
+[4.553s] -- Configured uncrustify additional arguments: 
+[4.553s] -- Added test 'xmllint' to check XML markup files
+[4.555s] -- Configuring done
+[4.560s] -- Generating done
+[4.562s] -- Build files have been written to: /home/youngju/automaticDrive/build/hello_node
+[4.570s] Invoked command in '/home/youngju/automaticDrive/build/hello_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/youngju/automaticDrive/src/hello_node -DCMAKE_INSTALL_PREFIX=/home/youngju/automaticDrive/install/hello_node
+[4.573s] Invoking command in '/home/youngju/automaticDrive/build/hello_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/hello_node -- -j12 -l12
+[4.601s] Invoked command in '/home/youngju/automaticDrive/build/hello_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/hello_node -- -j12 -l12
+[4.609s] Invoking command in '/home/youngju/automaticDrive/build/hello_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/youngju/automaticDrive/build/hello_node
+[4.614s] -- Install configuration: ""
+[4.615s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/ament_index/resource_index/package_run_dependencies/hello_node
+[4.615s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/ament_index/resource_index/parent_prefix_path/hello_node
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/environment/ament_prefix_path.sh
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/environment/ament_prefix_path.dsv
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/environment/path.sh
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/environment/path.dsv
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/local_setup.bash
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/local_setup.sh
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/local_setup.zsh
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/local_setup.dsv
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/package.dsv
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/ament_index/resource_index/packages/hello_node
+[4.616s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/cmake/hello_nodeConfig.cmake
+[4.617s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/cmake/hello_nodeConfig-version.cmake
+[4.617s] -- Installing: /home/youngju/automaticDrive/install/hello_node/share/hello_node/package.xml
+[4.619s] Invoked command in '/home/youngju/automaticDrive/build/hello_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/youngju/automaticDrive/build/hello_node
