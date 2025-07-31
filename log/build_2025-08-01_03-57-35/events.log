@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.001057] (drive) JobQueued: {'identifier': 'drive', 'dependencies': OrderedDict()}
+[0.001777] (drive) JobStarted: {'identifier': 'drive'}
+[0.007264] (drive) JobProgress: {'identifier': 'drive', 'progress': 'cmake'}
+[0.008596] (drive) JobProgress: {'identifier': 'drive', 'progress': 'build'}
+[0.008770] (drive) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/youngju/automaticDrive/build/drive', '--', '-j12', '-l12'], 'cwd': '/home/youngju/automaticDrive/build/drive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'youngju'), ('GIT_ASKPASS', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/youngju'), ('OLDPWD', '/home/youngju/automaticDrive'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ebb4a4d0-cd3f-4163-b6e6-9e43ef7d7046.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'youngju'), ('NAME', 'YOUNGJU'), ('WSL_INTEROP', '/run/WSL/54648_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/2000d/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/2000d/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/2000d/AppData/Roaming/npm:/snap/bin:/home/youngju/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ef863dd29f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/youngju/automaticDrive/build/drive'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044473] (drive) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target uart_node\x1b[0m\n'}
+[0.054039] (drive) StdoutLine: {'line': b'[ 50%] Built target speed_steer_publisher\n'}
+[0.059576] (drive) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/uart_node.dir/src/uart_node.cpp.o\x1b[0m\n'}
+[0.100141] (-) TimerEvent: {}
+[0.200600] (-) TimerEvent: {}
+[0.300991] (-) TimerEvent: {}
+[0.401450] (-) TimerEvent: {}
+[0.501846] (-) TimerEvent: {}
+[0.602264] (-) TimerEvent: {}
+[0.702639] (-) TimerEvent: {}
+[0.803081] (-) TimerEvent: {}
+[0.903535] (-) TimerEvent: {}
+[1.003959] (-) TimerEvent: {}
+[1.104350] (-) TimerEvent: {}
+[1.204728] (-) TimerEvent: {}
+[1.305043] (-) TimerEvent: {}
+[1.405621] (-) TimerEvent: {}
+[1.506033] (-) TimerEvent: {}
+[1.606448] (-) TimerEvent: {}
+[1.706856] (-) TimerEvent: {}
+[1.807401] (-) TimerEvent: {}
+[1.907738] (-) TimerEvent: {}
+[2.008161] (-) TimerEvent: {}
+[2.108553] (-) TimerEvent: {}
+[2.208831] (-) TimerEvent: {}
+[2.309124] (-) TimerEvent: {}
+[2.409423] (-) TimerEvent: {}
+[2.509716] (-) TimerEvent: {}
+[2.610206] (-) TimerEvent: {}
+[2.710633] (-) TimerEvent: {}
+[2.810946] (-) TimerEvent: {}
+[2.911383] (-) TimerEvent: {}
+[3.011770] (-) TimerEvent: {}
+[3.112304] (-) TimerEvent: {}
+[3.212696] (-) TimerEvent: {}
+[3.313052] (-) TimerEvent: {}
+[3.413438] (-) TimerEvent: {}
+[3.513856] (-) TimerEvent: {}
+[3.614385] (-) TimerEvent: {}
+[3.714823] (-) TimerEvent: {}
+[3.815235] (-) TimerEvent: {}
+[3.915671] (-) TimerEvent: {}
+[4.016168] (-) TimerEvent: {}
+[4.116671] (-) TimerEvent: {}
+[4.217014] (-) TimerEvent: {}
+[4.317405] (-) TimerEvent: {}
+[4.417831] (-) TimerEvent: {}
+[4.518163] (-) TimerEvent: {}
+[4.618421] (-) TimerEvent: {}
+[4.718694] (-) TimerEvent: {}
+[4.819300] (-) TimerEvent: {}
+[4.919826] (-) TimerEvent: {}
+[5.020214] (-) TimerEvent: {}
+[5.120599] (-) TimerEvent: {}
+[5.220901] (-) TimerEvent: {}
+[5.321253] (-) TimerEvent: {}
+[5.421774] (-) TimerEvent: {}
+[5.522070] (-) TimerEvent: {}
+[5.622382] (-) TimerEvent: {}
+[5.722754] (-) TimerEvent: {}
+[5.823056] (-) TimerEvent: {}
+[5.923296] (-) TimerEvent: {}
+[6.023565] (-) TimerEvent: {}
+[6.123814] (-) TimerEvent: {}
+[6.224356] (-) TimerEvent: {}
+[6.324782] (-) TimerEvent: {}
+[6.425354] (-) TimerEvent: {}
+[6.525735] (-) TimerEvent: {}
+[6.626315] (-) TimerEvent: {}
+[6.670457] (drive) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable uart_node\x1b[0m\n'}
+[6.726502] (-) TimerEvent: {}
+[6.826777] (-) TimerEvent: {}
+[6.927125] (-) TimerEvent: {}
+[6.955773] (drive) StdoutLine: {'line': b'[100%] Built target uart_node\n'}
+[6.975391] (drive) CommandEnded: {'returncode': 0}
+[6.976265] (drive) JobProgress: {'identifier': 'drive', 'progress': 'install'}
+[6.981159] (drive) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/youngju/automaticDrive/build/drive'], 'cwd': '/home/youngju/automaticDrive/build/drive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'youngju'), ('GIT_ASKPASS', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/youngju'), ('OLDPWD', '/home/youngju/automaticDrive'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ebb4a4d0-cd3f-4163-b6e6-9e43ef7d7046.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'youngju'), ('NAME', 'YOUNGJU'), ('WSL_INTEROP', '/run/WSL/54648_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/2000d/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/2000d/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/2000d/AppData/Roaming/npm:/snap/bin:/home/youngju/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ef863dd29f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/youngju/automaticDrive/build/drive'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.986270] (drive) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.986813] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/lib/drive/uart_node\n'}
+[6.988983] (drive) StdoutLine: {'line': b'-- Set runtime path of "/home/youngju/automaticDrive/install/drive/lib/drive/uart_node" to ""\n'}
+[6.989198] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/lib/drive/speed_steer_publisher\n'}
+[6.990292] (drive) StdoutLine: {'line': b'-- Set runtime path of "/home/youngju/automaticDrive/install/drive/lib/drive/speed_steer_publisher" to ""\n'}
+[6.990798] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/package_run_dependencies/drive\n'}
+[6.990991] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/parent_prefix_path/drive\n'}
+[6.991213] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/ament_prefix_path.sh\n'}
+[6.991300] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/ament_prefix_path.dsv\n'}
+[6.991481] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/path.sh\n'}
+[6.991607] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/path.dsv\n'}
+[6.991645] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.bash\n'}
+[6.991675] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.sh\n'}
+[6.991834] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.zsh\n'}
+[6.991941] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.dsv\n'}
+[6.992012] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/package.dsv\n'}
+[6.992161] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/packages/drive\n'}
+[6.992346] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/cmake/driveConfig.cmake\n'}
+[6.992479] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/cmake/driveConfig-version.cmake\n'}
+[6.992709] (drive) StdoutLine: {'line': b'-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/package.xml\n'}
+[6.994111] (drive) CommandEnded: {'returncode': 0}
+[7.006438] (drive) JobEnded: {'identifier': 'drive', 'rc': 0}
+[7.007194] (-) EventReactorShutdown: {}

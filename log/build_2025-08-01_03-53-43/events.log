@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.000843] (drive) JobQueued: {'identifier': 'drive', 'dependencies': OrderedDict()}
+[0.000893] (drive) JobStarted: {'identifier': 'drive'}
+[0.005198] (drive) JobProgress: {'identifier': 'drive', 'progress': 'cmake'}
+[0.005738] (drive) Command: {'cmd': ['/usr/bin/cmake', '/home/youngju/automaticDrive/src/drive', '-DCMAKE_INSTALL_PREFIX=/home/youngju/automaticDrive/install/drive'], 'cwd': '/home/youngju/automaticDrive/build/drive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'youngju'), ('GIT_ASKPASS', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/youngju'), ('OLDPWD', '/home/youngju/automaticDrive'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ebb4a4d0-cd3f-4163-b6e6-9e43ef7d7046.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'youngju'), ('NAME', 'YOUNGJU'), ('WSL_INTEROP', '/run/WSL/54648_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/2000d/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/2000d/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/2000d/AppData/Roaming/npm:/snap/bin:/home/youngju/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ef863dd29f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/youngju/automaticDrive/build/drive'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.015387] (drive) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.093507] (drive) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099560] (-) TimerEvent: {}
+[0.171119] (drive) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.172132] (drive) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.175522] (drive) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.181419] (drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.188703] (drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199742] (-) TimerEvent: {}
+[0.206616] (drive) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.207009] (drive) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299812] (-) TimerEvent: {}
+[0.400007] (-) TimerEvent: {}
+[0.500218] (-) TimerEvent: {}
+[0.600467] (-) TimerEvent: {}
+[0.700717] (-) TimerEvent: {}
+[0.800968] (-) TimerEvent: {}
+[0.901175] (-) TimerEvent: {}
+[1.001435] (-) TimerEvent: {}
+[1.101681] (-) TimerEvent: {}
+[1.202012] (-) TimerEvent: {}
+[1.302338] (-) TimerEvent: {}
+[1.402604] (-) TimerEvent: {}
+[1.502848] (-) TimerEvent: {}
+[1.603097] (-) TimerEvent: {}
+[1.703368] (-) TimerEvent: {}
+[1.803640] (-) TimerEvent: {}
+[1.903899] (-) TimerEvent: {}
+[2.004193] (-) TimerEvent: {}
+[2.104445] (-) TimerEvent: {}
+[2.204722] (-) TimerEvent: {}
+[2.304964] (-) TimerEvent: {}
+[2.405209] (-) TimerEvent: {}
+[2.505473] (-) TimerEvent: {}
+[2.605746] (-) TimerEvent: {}
+[2.608276] (drive) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.681142] (drive) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.688664] (drive) StdoutLine: {'line': b'-- Generating done\n'}
+[2.691321] (drive) StdoutLine: {'line': b'-- Build files have been written to: /home/youngju/automaticDrive/build/drive\n'}
+[2.695877] (drive) CommandEnded: {'returncode': 0}
+[2.697111] (drive) JobProgress: {'identifier': 'drive', 'progress': 'build'}
+[2.697127] (drive) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/youngju/automaticDrive/build/drive', '--', '-j12', '-l12'], 'cwd': '/home/youngju/automaticDrive/build/drive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'youngju'), ('GIT_ASKPASS', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/youngju'), ('OLDPWD', '/home/youngju/automaticDrive'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ebb4a4d0-cd3f-4163-b6e6-9e43ef7d7046.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'youngju'), ('NAME', 'YOUNGJU'), ('WSL_INTEROP', '/run/WSL/54648_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/2000d/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/2000d/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/2000d/AppData/Roaming/npm:/snap/bin:/home/youngju/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ef863dd29f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/youngju/automaticDrive/build/drive'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.705832] (-) TimerEvent: {}
+[2.729222] (drive) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/speed_steer_publisher.dir/src/speed_steer_publisher.cpp.o\x1b[0m\n'}
+[2.729367] (drive) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/uart_node.dir/src/uart_node.cpp.o\x1b[0m\n'}
+[2.806132] (-) TimerEvent: {}
+[2.906620] (-) TimerEvent: {}
+[3.007000] (-) TimerEvent: {}
+[3.107535] (-) TimerEvent: {}
+[3.208028] (-) TimerEvent: {}
+[3.308507] (-) TimerEvent: {}
+[3.408850] (-) TimerEvent: {}
+[3.509285] (-) TimerEvent: {}
+[3.609784] (-) TimerEvent: {}
+[3.710287] (-) TimerEvent: {}
+[3.810785] (-) TimerEvent: {}
+[3.911286] (-) TimerEvent: {}
+[4.011761] (-) TimerEvent: {}
+[4.112187] (-) TimerEvent: {}
+[4.212676] (-) TimerEvent: {}
+[4.313242] (-) TimerEvent: {}
+[4.413622] (-) TimerEvent: {}
+[4.514001] (-) TimerEvent: {}
+[4.614378] (-) TimerEvent: {}
+[4.714870] (-) TimerEvent: {}
+[4.815258] (-) TimerEvent: {}
+[4.915714] (-) TimerEvent: {}
+[5.016159] (-) TimerEvent: {}
+[5.116570] (-) TimerEvent: {}
+[5.217176] (-) TimerEvent: {}
+[5.317678] (-) TimerEvent: {}
+[5.418043] (-) TimerEvent: {}
+[5.518766] (-) TimerEvent: {}
+[5.619402] (-) TimerEvent: {}
+[5.720031] (-) TimerEvent: {}
+[5.820633] (-) TimerEvent: {}
+[5.921165] (-) TimerEvent: {}
+[5.993684] (drive) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable speed_steer_publisher\x1b[0m\n'}
+[6.021289] (-) TimerEvent: {}
+[6.121794] (-) TimerEvent: {}
+[6.215074] (drive) StdoutLine: {'line': b'[ 75%] Built target speed_steer_publisher\n'}
+[6.221881] (-) TimerEvent: {}
+[6.322137] (-) TimerEvent: {}
+[6.324434] (drive) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable uart_node\x1b[0m\n'}
+[6.412252] (drive) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[6.412599] (drive) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[6.415051] (drive) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[6.416321] (drive) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/uart_node.dir/build.make:159: uart_node] Error 1\n'}
+[6.416471] (drive) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/uart_node.dir/all] Error 2\n'}
+[6.416727] (drive) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.418993] (drive) CommandEnded: {'returncode': 2}
+[6.422340] (-) TimerEvent: {}
+[6.424344] (drive) JobEnded: {'identifier': 'drive', 'rc': 2}
+[6.434881] (-) EventReactorShutdown: {}

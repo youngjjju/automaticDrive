@@ -1,0 +1,2 @@
+Invoking command in '/home/youngju/automaticDrive/build/drive': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/drive -- -j12 -l12
+Invoked command in '/home/youngju/automaticDrive/build/drive' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/drive -- -j12 -l12

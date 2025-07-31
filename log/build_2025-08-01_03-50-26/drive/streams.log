@@ -1,0 +1,47 @@
+[0.012s] Invoking command in '/home/youngju/automaticDrive/build/drive': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/youngju/automaticDrive/src/drive -DCMAKE_INSTALL_PREFIX=/home/youngju/automaticDrive/install/drive
+[0.154s] -- The C compiler identification is GNU 11.4.0
+[0.479s] -- The CXX compiler identification is GNU 11.4.0
+[0.722s] -- Detecting C compiler ABI info
+[0.871s] -- Detecting C compiler ABI info - done
+[0.881s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.882s] -- Detecting C compile features
+[0.883s] -- Detecting C compile features - done
+[0.888s] -- Detecting CXX compiler ABI info
+[1.026s] -- Detecting CXX compiler ABI info - done
+[1.032s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.032s] -- Detecting CXX compile features
+[1.032s] -- Detecting CXX compile features - done
+[1.048s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.190s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.324s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.470s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.476s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.486s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.587s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.591s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.495s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.321s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.640s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.666s] -- Looking for pthread.h
+[4.759s] -- Looking for pthread.h - found
+[4.760s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.852s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.853s] -- Found Threads: TRUE  
+[4.987s] -- Configuring done
+[4.992s] [31mCMake Error at CMakeLists.txt:16 (add_library):
+[4.992s]   Cannot find source file:
+[4.992s] 
+[4.992s]     src/config.cpp
+[4.993s] 
+[4.993s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[4.993s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[4.993s] 
+[4.993s] [0m
+[4.993s] [31mCMake Error at CMakeLists.txt:16 (add_library):
+[4.993s]   No SOURCES given to target: config_lib
+[4.993s] 
+[4.993s] [0m
+[4.993s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[5.001s] Invoked command in '/home/youngju/automaticDrive/build/drive' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/youngju/automaticDrive/src/drive -DCMAKE_INSTALL_PREFIX=/home/youngju/automaticDrive/install/drive

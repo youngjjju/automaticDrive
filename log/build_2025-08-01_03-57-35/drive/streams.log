@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/youngju/automaticDrive/build/drive': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/drive -- -j12 -l12
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target uart_node[0m
+[0.052s] [ 50%] Built target speed_steer_publisher
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/uart_node.dir/src/uart_node.cpp.o[0m
+[6.669s] [100%] [32m[1mLinking CXX executable uart_node[0m
+[6.954s] [100%] Built target uart_node
+[6.974s] Invoked command in '/home/youngju/automaticDrive/build/drive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/drive -- -j12 -l12
+[6.980s] Invoking command in '/home/youngju/automaticDrive/build/drive': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/youngju/automaticDrive/build/drive
+[6.985s] -- Install configuration: ""
+[6.985s] -- Installing: /home/youngju/automaticDrive/install/drive/lib/drive/uart_node
+[6.987s] -- Set runtime path of "/home/youngju/automaticDrive/install/drive/lib/drive/uart_node" to ""
+[6.987s] -- Installing: /home/youngju/automaticDrive/install/drive/lib/drive/speed_steer_publisher
+[6.989s] -- Set runtime path of "/home/youngju/automaticDrive/install/drive/lib/drive/speed_steer_publisher" to ""
+[6.989s] -- Installing: /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/package_run_dependencies/drive
+[6.989s] -- Installing: /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/parent_prefix_path/drive
+[6.989s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/ament_prefix_path.sh
+[6.990s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/ament_prefix_path.dsv
+[6.990s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/path.sh
+[6.990s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/path.dsv
+[6.990s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.bash
+[6.990s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.sh
+[6.990s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.zsh
+[6.990s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.dsv
+[6.990s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/package.dsv
+[6.990s] -- Installing: /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/packages/drive
+[6.991s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/cmake/driveConfig.cmake
+[6.991s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/cmake/driveConfig-version.cmake
+[6.991s] -- Installing: /home/youngju/automaticDrive/install/drive/share/drive/package.xml
+[6.992s] Invoked command in '/home/youngju/automaticDrive/build/drive' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/youngju/automaticDrive/build/drive

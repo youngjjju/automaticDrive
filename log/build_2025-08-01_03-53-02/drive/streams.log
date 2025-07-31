@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/youngju/automaticDrive/build/drive': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/youngju/automaticDrive/src/drive -DCMAKE_INSTALL_PREFIX=/home/youngju/automaticDrive/install/drive
+[0.018s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.096s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.173s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.178s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.209s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.211s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.661s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.691s] [31mCMake Error at CMakeLists.txt:16 (install):
+[2.691s]   install TARGETS given target "config_lib" which does not exist.
+[2.691s] 
+[2.691s] [0m
+[2.738s] -- Configuring incomplete, errors occurred!
+[2.738s] See also "/home/youngju/automaticDrive/build/drive/CMakeFiles/CMakeOutput.log".
+[2.743s] Invoked command in '/home/youngju/automaticDrive/build/drive' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/youngju/automaticDrive/src/drive -DCMAKE_INSTALL_PREFIX=/home/youngju/automaticDrive/install/drive

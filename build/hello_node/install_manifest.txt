@@ -1,4 +1,5 @@
-/home/youngju/automaticDrive/install/hello_node/lib/hello_node/hello_node
+/home/youngju/automaticDrive/install/hello_node/lib/hello_node/talker_node
+/home/youngju/automaticDrive/install/hello_node/lib/hello_node/listener_node
 /home/youngju/automaticDrive/install/hello_node/share/ament_index/resource_index/package_run_dependencies/hello_node
 /home/youngju/automaticDrive/install/hello_node/share/ament_index/resource_index/parent_prefix_path/hello_node
 /home/youngju/automaticDrive/install/hello_node/share/hello_node/environment/ament_prefix_path.sh

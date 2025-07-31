@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-08b094ffc53e72aa49a1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "drive",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_uninstall-54c4aab3e2b80214eced.json",
+					"name" : "drive_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "speed_steer_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-speed_steer_publisher-9ddb3d33f0a37c078c8b.json",
+					"name" : "speed_steer_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uart_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uart_node-7de111ae0f4c610b6ad4.json",
+					"name" : "uart_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-685feeaf51f855b4bbff.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/youngju/automaticDrive/build/drive",
+		"source" : "/home/youngju/automaticDrive/src/drive"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

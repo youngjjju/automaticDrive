@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000655] (drive) JobQueued: {'identifier': 'drive', 'dependencies': OrderedDict()}
+[0.001384] (drive) JobStarted: {'identifier': 'drive'}
+[0.009286] (drive) JobProgress: {'identifier': 'drive', 'progress': 'cmake'}
+[0.010637] (drive) Command: {'cmd': ['/usr/bin/cmake', '/home/youngju/automaticDrive/src/drive', '-DCMAKE_INSTALL_PREFIX=/home/youngju/automaticDrive/install/drive'], 'cwd': '/home/youngju/automaticDrive/build/drive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'youngju'), ('GIT_ASKPASS', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/youngju'), ('OLDPWD', '/home/youngju/automaticDrive'), ('TERM_PROGRAM_VERSION', '1.102.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-ebb4a4d0-cd3f-4163-b6e6-9e43ef7d7046.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'youngju'), ('NAME', 'YOUNGJU'), ('WSL_INTEROP', '/run/WSL/54648_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/youngju/.vscode-server/bin/488a1f239235055e34e673291fb8d8c810886f81/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/2000d/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/2000d/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/2000d/AppData/Roaming/npm:/snap/bin:/home/youngju/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-ef863dd29f.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/youngju/automaticDrive/build/drive'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099995] (-) TimerEvent: {}
+[0.155784] (drive) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200118] (-) TimerEvent: {}
+[0.300463] (-) TimerEvent: {}
+[0.400833] (-) TimerEvent: {}
+[0.480406] (drive) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.501115] (-) TimerEvent: {}
+[0.601748] (-) TimerEvent: {}
+[0.702256] (-) TimerEvent: {}
+[0.723345] (drive) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.802448] (-) TimerEvent: {}
+[0.872502] (drive) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.881913] (drive) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.883117] (drive) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.884352] (drive) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.889470] (drive) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902652] (-) TimerEvent: {}
+[1.003195] (-) TimerEvent: {}
+[1.026958] (drive) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.033124] (drive) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.033618] (drive) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.033914] (drive) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.049174] (drive) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.103347] (-) TimerEvent: {}
+[1.191814] (drive) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.203548] (-) TimerEvent: {}
+[1.303965] (-) TimerEvent: {}
+[1.325902] (drive) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.404077] (-) TimerEvent: {}
+[1.471131] (drive) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.477559] (drive) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.487503] (drive) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.504191] (-) TimerEvent: {}
+[1.507426] (drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.528697] (drive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.587978] (drive) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.592682] (drive) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.604325] (-) TimerEvent: {}
+[1.704810] (-) TimerEvent: {}
+[1.805475] (-) TimerEvent: {}
+[1.905890] (-) TimerEvent: {}
+[2.006519] (-) TimerEvent: {}
+[2.106973] (-) TimerEvent: {}
+[2.207261] (-) TimerEvent: {}
+[2.307605] (-) TimerEvent: {}
+[2.407925] (-) TimerEvent: {}
+[2.496344] (drive) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.508043] (-) TimerEvent: {}
+[2.608586] (-) TimerEvent: {}
+[2.709056] (-) TimerEvent: {}
+[2.809405] (-) TimerEvent: {}
+[2.910053] (-) TimerEvent: {}
+[3.010448] (-) TimerEvent: {}
+[3.110725] (-) TimerEvent: {}
+[3.211147] (-) TimerEvent: {}
+[3.311671] (-) TimerEvent: {}
+[3.322155] (drive) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.411821] (-) TimerEvent: {}
+[3.512217] (-) TimerEvent: {}
+[3.612592] (-) TimerEvent: {}
+[3.712934] (-) TimerEvent: {}
+[3.813238] (-) TimerEvent: {}
+[3.913692] (-) TimerEvent: {}
+[4.014328] (-) TimerEvent: {}
+[4.114611] (-) TimerEvent: {}
+[4.214919] (-) TimerEvent: {}
+[4.315251] (-) TimerEvent: {}
+[4.415577] (-) TimerEvent: {}
+[4.515928] (-) TimerEvent: {}
+[4.616335] (-) TimerEvent: {}
+[4.641638] (drive) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.667883] (drive) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.716489] (-) TimerEvent: {}
+[4.760939] (drive) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.761326] (drive) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.816625] (-) TimerEvent: {}
+[4.853867] (drive) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.854798] (drive) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.916717] (-) TimerEvent: {}
+[4.988990] (drive) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.992974] (drive) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_library):\n'}
+[4.993558] (drive) StderrLine: {'line': b'  Cannot find source file:\n'}
+[4.994002] (drive) StderrLine: {'line': b'\n'}
+[4.994071] (drive) StderrLine: {'line': b'    src/config.cpp\n'}
+[4.994175] (drive) StderrLine: {'line': b'\n'}
+[4.994235] (drive) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[4.994286] (drive) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[4.994334] (drive) StderrLine: {'line': b'\n'}
+[4.994379] (drive) StderrLine: {'line': b'\x1b[0m\n'}
+[4.994422] (drive) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (add_library):\n'}
+[4.994452] (drive) StderrLine: {'line': b'  No SOURCES given to target: config_lib\n'}
+[4.994482] (drive) StderrLine: {'line': b'\n'}
+[4.994508] (drive) StderrLine: {'line': b'\x1b[0m\n'}
+[4.994536] (drive) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[5.002497] (drive) CommandEnded: {'returncode': 1}
+[5.016807] (-) TimerEvent: {}
+[5.026391] (drive) JobEnded: {'identifier': 'drive', 'rc': 1}
+[5.037451] (-) EventReactorShutdown: {}

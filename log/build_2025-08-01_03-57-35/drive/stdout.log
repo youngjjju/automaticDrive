@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target uart_node[0m
+[ 50%] Built target speed_steer_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/uart_node.dir/src/uart_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable uart_node[0m
+[100%] Built target uart_node
+-- Install configuration: ""
+-- Installing: /home/youngju/automaticDrive/install/drive/lib/drive/uart_node
+-- Set runtime path of "/home/youngju/automaticDrive/install/drive/lib/drive/uart_node" to ""
+-- Installing: /home/youngju/automaticDrive/install/drive/lib/drive/speed_steer_publisher
+-- Set runtime path of "/home/youngju/automaticDrive/install/drive/lib/drive/speed_steer_publisher" to ""
+-- Installing: /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/package_run_dependencies/drive
+-- Installing: /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/parent_prefix_path/drive
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/ament_prefix_path.sh
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/ament_prefix_path.dsv
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/path.sh
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/environment/path.dsv
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.bash
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.sh
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.zsh
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/local_setup.dsv
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/package.dsv
+-- Installing: /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/packages/drive
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/cmake/driveConfig.cmake
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/cmake/driveConfig-version.cmake
+-- Installing: /home/youngju/automaticDrive/install/drive/share/drive/package.xml
