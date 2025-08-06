@@ -1,5 +1,10 @@
 #include "rclcpp/rclcpp.hpp"
 #include "opencv2/opencv.hpp"
+#include <vector>
+#include <numeric>
+#include <functional>
+#include <chrono>
+#include <algorithm>
 
 class DriveNode : public rclcpp::Node
 {
@@ -7,7 +12,7 @@ class DriveNode : public rclcpp::Node
         DriveNode(): Node("drive_node")
         {
             cam_.open(0);
-            if(!cam.isOpened()){
+            if(!cam_.isOpened()){
                 RCLCPP_ERROR(this->get_logger(), "카메라를 열 수 없습니다");
                 return;
             }
@@ -22,7 +27,8 @@ class DriveNode : public rclcpp::Node
         void process_frame()
         {
             cv::Mat frame, mask, birdview;
-            cv::vector<cv::Point> center_points;
+            std::vector<cv::Point> center_points;
+            
             cam_ >> frame;
             if(frame.empty()){
                 RCLCPP_WARN(this->get_logger(), "빈 프레임이 입력되었습니다.");
@@ -57,6 +63,21 @@ class DriveNode : public rclcpp::Node
 
             for (const auto& pt : center_points) {
                 cv::circle(birdview, pt, 3, cv::Scalar(128), -1); // 중심선은 imshow에서 회색(Scalar128)로 보임
+            }
+
+            std::vector<double> srcX, srcY;
+            for(const auto& pt: center_points){
+                srcX.push_back(static_cast<double>(pt.x));
+                srcY.push_back(static_cast<double>(pt.y));
+            }
+            double b0=0, b1=0, b2=0;
+            get2ndOrderRegression(&srcX, &srcY, &b0, &b1, &b2); // 2차 다항식 회귀로 라인 피팅
+
+            for(int x=0; x<birdview.cols; ++x){
+                double y= b0 + b1 * x + b2 * x * x;
+                if(y>=0 && y<birdview.rows){
+                    cv::circle(birdview, cv::Point(x, static_cast<int>(y)), 1, cv::Scalar(255, 0, 0), -1);
+                }
             }
 
             cv::imshow("상태", birdview);
@@ -107,6 +128,39 @@ class DriveNode : public rclcpp::Node
                 }
             }
             return center_points;
+        }
+
+        bool get2ndOrderRegression(std::vector<double>* srcX, std::vector<double>* srcY, double* b0, double* b1, double* b2)
+        {
+
+            double Y = std::accumulate(srcY->begin(), srcY->end(), 0.0);
+            double X = std::accumulate(srcX->begin(), srcX->end(), 0.0);
+
+            double X2 = std::accumulate(srcX->begin(), srcX->end(), 0.0, [](double init, double x){ return init + x * x;});
+            double X3 = std::accumulate(srcX->begin(), srcX->end(), 0.0, [](double init, double x){ return init + x * x * x;});
+            double X4 = std::accumulate(srcX->begin(), srcX->end(), 0.0, [](double init, double x){ return init + x * x * x * x;});
+
+            double K = 0.0;
+            double L = 0.0;
+
+            int i = 0;
+            int n = (int)srcX->size();
+
+            for (i = 0; i < n; i++) {
+                K += ((*srcY)[i] * (*srcX)[i] * (*srcX)[i]);
+                L += ((*srcY)[i] * (*srcX)[i]);
+            }
+
+            double denominator = -n * X4 * X2 + X4 * X * X + X2 * X2 * X2 + X3 * X3 * n - 2 * X3 * X * X2;
+            double b0p = -(Y * X4 * X2 - Y * X3 * X3 - X * L * X4 + X * X3 * K - X2 * X2 * K + X2 * X3 * L);
+            double b1p = X * Y * X4 - X * K * X2 - L * n * X4 + X3 * n * K - Y * X2 * X3 + X2 * X2 * L;
+            double b2p = -(K * n * X2 - K * X * X - X2 * X2 * Y - X3 * n * L + X3 * X * Y + X * X2 * L);
+
+            *b0 = b0p / denominator;
+            *b1 = b1p / denominator;
+            *b2 = b2p / denominator;
+
+            return true;
         }
 
         cv::VideoCapture cam_;
