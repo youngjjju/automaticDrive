@@ -1,0 +1,14 @@
+[0.018s] Invoking command in '/home/youngju/automaticDrive/build/drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/drive -- -j12 -l12
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target speed_steer_publisher[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target drive_node[0m
+[0.105s] [35m[1mConsolidate compiler generated dependencies of target uart_node[0m
+[0.117s] [ 16%] [32m[1mLinking CXX executable drive_node[0m
+[0.122s] [ 50%] Built target uart_node
+[0.122s] [ 83%] Built target speed_steer_publisher
+[0.401s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.401s] (.text+0x1b): undefined reference to `main'
+[0.402s] collect2: error: ld returned 1 exit status
+[0.404s] gmake[2]: *** [CMakeFiles/drive_node.dir/build.make:213: drive_node] Error 1
+[0.404s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/drive_node.dir/all] Error 2
+[0.404s] gmake: *** [Makefile:146: all] Error 2
+[0.407s] Invoked command in '/home/youngju/automaticDrive/build/drive' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/drive -- -j12 -l12

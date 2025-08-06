@@ -37,8 +37,8 @@ public:
             uint8_t end_byte = 0xFF;
             
             uint8_t buffer[3] = {speed_byte, steer_byte, end_byte};
-            // write(uart_fd, buffer, 3);
             
+            // write(uart_fd, buffer, 3);
             RCLCPP_INFO(this->get_logger(), "UART 전송: speed %d → %u, steer %d → %u", speed_, speed_byte, steer_, steer_byte);
         });
         

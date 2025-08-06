@@ -36,13 +36,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 21,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 22,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
@@ -232,7 +232,7 @@
 				"uart_node"
 			],
 			"targetId" : "uart_node::@6890427a1f51a3e7e1df",
-			"targetIndex" : 2,
+			"targetIndex" : 3,
 			"type" : "target"
 		},
 		{
@@ -244,7 +244,19 @@
 				"speed_steer_publisher"
 			],
 			"targetId" : "speed_steer_publisher::@6890427a1f51a3e7e1df",
-			"targetIndex" : 1,
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/drive",
+			"paths" : 
+			[
+				"drive_node"
+			],
+			"targetId" : "drive_node::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
 			"type" : "target"
 		},
 		{

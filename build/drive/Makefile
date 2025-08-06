@@ -223,6 +223,43 @@ speed_steer_publisher/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_steer_publisher.dir/build.make CMakeFiles/speed_steer_publisher.dir/build
 .PHONY : speed_steer_publisher/fast
 
+#=============================================================================
+# Target rules for targets named drive_node
+
+# Build rule for target.
+drive_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drive_node
+.PHONY : drive_node
+
+# fast build rule for target.
+drive_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drive_node.dir/build.make CMakeFiles/drive_node.dir/build
+.PHONY : drive_node/fast
+
+src/drive.o: src/drive.cpp.o
+.PHONY : src/drive.o
+
+# target to build an object file
+src/drive.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drive_node.dir/build.make CMakeFiles/drive_node.dir/src/drive.cpp.o
+.PHONY : src/drive.cpp.o
+
+src/drive.i: src/drive.cpp.i
+.PHONY : src/drive.i
+
+# target to preprocess a source file
+src/drive.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drive_node.dir/build.make CMakeFiles/drive_node.dir/src/drive.cpp.i
+.PHONY : src/drive.cpp.i
+
+src/drive.s: src/drive.cpp.s
+.PHONY : src/drive.s
+
+# target to generate assembly for a file
+src/drive.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drive_node.dir/build.make CMakeFiles/drive_node.dir/src/drive.cpp.s
+.PHONY : src/drive.cpp.s
+
 src/speed_steer_publisher.o: src/speed_steer_publisher.cpp.o
 .PHONY : src/speed_steer_publisher.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... drive_uninstall"
 	@echo "... uninstall"
+	@echo "... drive_node"
 	@echo "... speed_steer_publisher"
 	@echo "... uart_node"
+	@echo "... src/drive.o"
+	@echo "... src/drive.i"
+	@echo "... src/drive.s"
 	@echo "... src/speed_steer_publisher.o"
 	@echo "... src/speed_steer_publisher.i"
 	@echo "... src/speed_steer_publisher.s"

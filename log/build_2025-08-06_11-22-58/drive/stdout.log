@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target speed_steer_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target drive_node[0m
+[35m[1mConsolidate compiler generated dependencies of target uart_node[0m
+[ 16%] [32m[1mLinking CXX executable drive_node[0m
+[ 50%] Built target uart_node
+[ 83%] Built target speed_steer_publisher

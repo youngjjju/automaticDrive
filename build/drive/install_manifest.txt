@@ -1,5 +1,6 @@
 /home/youngju/automaticDrive/install/drive/lib/drive/uart_node
 /home/youngju/automaticDrive/install/drive/lib/drive/speed_steer_publisher
+/home/youngju/automaticDrive/install/drive/lib/drive/drive_node
 /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/package_run_dependencies/drive
 /home/youngju/automaticDrive/install/drive/share/ament_index/resource_index/parent_prefix_path/drive
 /home/youngju/automaticDrive/install/drive/share/drive/environment/ament_prefix_path.sh

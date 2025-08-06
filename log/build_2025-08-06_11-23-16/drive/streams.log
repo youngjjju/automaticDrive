@@ -1,0 +1,12 @@
+[0.008s] Invoking command in '/home/youngju/automaticDrive/build/drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/drive -- -j12 -l12
+[0.053s] [ 16%] [32mBuilding CXX object CMakeFiles/drive_node.dir/src/drive.cpp.o[0m
+[0.057s] [ 50%] Built target uart_node
+[0.058s] [ 83%] Built target speed_steer_publisher
+[0.088s] [01m[K/home/youngju/automaticDrive/src/drive/src/drive.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.h: No such file or directory
+[0.088s]     1 | #include [01;31m[K"rclcpp/rclcpp.h"[m[K
+[0.088s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.088s] compilation terminated.
+[0.089s] gmake[2]: *** [CMakeFiles/drive_node.dir/build.make:76: CMakeFiles/drive_node.dir/src/drive.cpp.o] Error 1
+[0.089s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/drive_node.dir/all] Error 2
+[0.089s] gmake: *** [Makefile:146: all] Error 2
+[0.091s] Invoked command in '/home/youngju/automaticDrive/build/drive' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/youngju/automaticDrive/build/drive -- -j12 -l12
